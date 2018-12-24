@@ -1,0 +1,11 @@
+{
+    "name": "Siempo",
+    "version": "1.0",
+    "description": "A web extension",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    },
+    "content_security_policy": "script-src 'self' https://fonts.googleapis.com; object-src 'self'",
+    "manifest_version": 2
+  }
