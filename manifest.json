@@ -2,15 +2,32 @@
     "name": "Siempo",
     "version": "1.0",
     "description": "A web extension",
-    "permissions": ["activeTab", "declarativeContent", "storage"],
     "chrome_url_overrides" : {
         "newtab": "index.html"
     },
+    "permissions": [
+        "tabs",
+        "notifications",
+        "alarms",
+        "storage"
+      ],
     "icons":{
         "16":"icons/siempo_logo_16x16.png",
         "48":"icons/siempo_logo_48x48.png",
         "128":"icons/siempo_logo_128x128.png"
     },
+    "background": {
+        "scripts": [
+          "nudgeti/util/polyfill.js",
+          "nudgeti/util/store.js",
+          "nudgeti/core/settings-store.js",
+          "nudgeti/core/sound.js",
+          "nudgeti/core/nudgeti.js"
+        ]
+      },
+      "options_ui": {
+        "page": "nudgeti/settings/settings.html"
+      },
     "content_security_policy": "script-src 'self' https://fonts.googleapis.com; object-src 'self'",
     "manifest_version": 2
   }
