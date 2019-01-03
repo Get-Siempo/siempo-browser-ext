@@ -1,7 +1,7 @@
 {
     "name": "Siempo",
-    "version": "1.0",
-    "description": "A web extension",
+    "version": "0.1.0",
+    "description": "Spend less time on distracting websites. Nudge by Siempo gives you a nudge when you spend too much time on certain websites. Nudge also lets you set an intention that appears on every new browser tab you open.",
     "chrome_url_overrides" : {
         "newtab": "index.html"
     },
