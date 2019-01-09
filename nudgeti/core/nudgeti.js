@@ -138,7 +138,7 @@ function checkTime () {
           type: 'basic',
           iconUrl: browser.extension.getURL('../../icons/siempo_logo_128x128.png'),
           title: 'Siempo',
-          message: `Your current intention is :- ${localStorage.getItem('intention')} \n You spent more than ${humanTime(diff)} on ${data.hostname}.`
+          message: `Your current intention is ${localStorage.getItem('intention')}\nYou spent more than ${humanTime(diff)} on ${data.hostname}.`
         })
 
         playSound(notifySound)

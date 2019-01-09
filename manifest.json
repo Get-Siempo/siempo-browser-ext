@@ -1,33 +1,33 @@
 {
-    "name": "Siempo",
-    "version": "0.1.0",
-    "description": "Spend less time on distracting websites. Nudge by Siempo gives you a nudge when you spend too much time on certain websites. Nudge also lets you set an intention that appears on every new browser tab you open.",
-    "chrome_url_overrides" : {
-        "newtab": "index.html"
-    },
-    "permissions": [
-        "tabs",
-        "notifications",
-        "alarms",
-        "storage"
-      ],
-    "icons":{
-        "16":"icons/siempo_logo_16x16.png",
-        "48":"icons/siempo_logo_48x48.png",
-        "128":"icons/siempo_logo_128x128.png"
-    },
-    "background": {
-        "scripts": [
-          "nudgeti/util/polyfill.js",
-          "nudgeti/util/store.js",
-          "nudgeti/core/settings-store.js",
-          "nudgeti/core/sound.js",
-          "nudgeti/core/nudgeti.js"
-        ]
-      },
-      "options_ui": {
-        "page": "nudgeti/settings/settings.html"
-      },
-    "content_security_policy": "script-src 'self' https://fonts.googleapis.com; object-src 'self'",
-    "manifest_version": 2
-  }
+  "name": "Siempo",
+  "version": "0.1.0",
+  "description": "Siempo gives you a nudge when you spend too much time on certain websites and also lets you set an intention on new browser tab",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "notifications",
+    "alarms",
+    "storage"
+  ],
+  "icons":{
+    "16":"icons/siempo_logo_16x16.png",
+    "48":"icons/siempo_logo_48x48.png",
+    "128":"icons/siempo_logo_128x128.png"
+  },
+  "background": {
+    "scripts": [
+      "nudgeti/util/polyfill.js",
+      "nudgeti/util/store.js",
+      "nudgeti/core/settings-store.js",
+      "nudgeti/core/sound.js",
+      "nudgeti/core/nudgeti.js"
+    ]
+  },
+  "options_ui": {
+    "page": "nudgeti/settings/settings.html"
+  },
+  "content_security_policy": "script-src 'self' https://fonts.googleapis.com; object-src 'self'",
+  "manifest_version": 2
+}

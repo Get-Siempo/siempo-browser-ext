@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
       .intention{
-        font-size: 9em;
+        font-size: 8em !important;
         margin-top: 0px;
         padding-left: 0.5%;
       }
@@ -22,7 +22,7 @@
         top: 50%;
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%);
       }
       #edit-btn{
         box-shadow: 0px 0px !important;
@@ -32,17 +32,27 @@
 
   <body class="grey">
     <div class="intention-container">
-      <h5 style="padding-left:0.5%;" class="grey-text">&nbsp; Your intention:</h5>
-      <h1 class="intention"><span id="intention-span"></span> <button href="#edit-modal" id="edit-btn" class="btn-floating btn-large white modal-trigger"><i id="edit-btn-text" class="material-icons">edit</i></button></h1>
+      <table class="centered bordered">
+        <tr>
+          <td> <h5 style="padding-left:0.5%;" class="grey-text">&nbsp; Your intention</h5> </td>
+        </tr>
+        <tr>
+          <td id="edit-intention"> 
+              <span id="intention-span" class="intention"></span> 
+              <!-- <button href="#edit-modal" id="edit-btn" class="btn-floating btn-large white modal-trigger"><i id="edit-btn-text" class="material-icons">edit</i></button> -->
+          </td>
+        </tr>
+      </table>
     </div>
     <div id="edit-modal" class="modal">
       <div class="modal-content">
         <h4>Your intention</h4>
-          <div class="input-field col s6">
-            <input id="intention-input" type="text">
-          </div>
+        <div class="input-field col s6">
+          <input required class="validate" id="intention-input" type="text">
+        </div>
       </div>
       <div class="modal-footer">
+        <span>Click on intention to change it next time</span>
         <button id="submit-btn" class="waves-effect waves-green btn-flat">Okay</a>
       </div>
     </div>
