@@ -23,4 +23,4 @@ Example
 Licensing 
 ---------------------
 
-Nudge by Siempo builds on existing technologies, and is proudly licensed under the [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.txt) license.
+Nudge by Siempo builds on existing [technologies](https://github.com/ghinda/nudgeti), and is proudly licensed under the [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.txt) license.
