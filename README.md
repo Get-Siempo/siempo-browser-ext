@@ -1,7 +1,7 @@
-# Nudge by Siempo
+# Shift by Siempo
 
 
-Nudge is a browser extension that gives you a nudge when you spend too much time on distracting websites, and provides a new tab with an intention, to help you focus on what matters.
+Shift is a browser extension that gives you a nudge when you spend too much time on distracting websites, and provides a new tab with an intention, to help you focus on what matters.
 
 
 <a href="https://chrome.google.com/webstore/detail/nudge-by-siempo/hjoookglknijcfdlbcfnehfhicbknemj"><img src="https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_340x96.png" height="60"></a>
@@ -23,4 +23,4 @@ Example
 Licensing 
 ---------------------
 
-Nudge by Siempo builds on existing [technologies](https://github.com/ghinda/nudgeti), and is proudly licensed under the [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.txt) license.
+Shift by Siempo builds on existing [technologies](https://github.com/ghinda/nudgeti), the work of Louis, on [Nudge](http://nudgeware.io) and is proudly licensed under the [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.txt) license.
