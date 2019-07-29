@@ -1,0 +1,30 @@
+<html><head><title>Options</title><link rel="stylesheet" href="../../css/pages/main.css"/></head><body><div class="options-container"><div><div class="options-header"><div class="options-logo"></div></div></div><div id="welcome"></div><span class="options-sub-header">Distracting sites</span><div><ul class="text-input"><li><input id="addDomain" type="text" placeholder="Add a site here, or remove a site by clicking on it below"/></li></ul></div><div><span class="options-guidance-text"> (In format <span class="options-guidance-text-highlight">site.com</span>, <span class="options-guidance-text-highlight"> partof.site.com</span> or <span class="options-guidance-text-highlight">site.com/page</span>)</span></div><ul class="tags" id="domainList"></ul><span class="options-sub-header">Features</span><div class="boolean" id="time_nudge"><div>Nudges you with colorful rings the longer you spend on a site</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div><div class="boolean" id="div_hider"><div>Hides some sections of sites by default</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div><div class="boolean" id="off_by_default"><div>Switches off all sites by default</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div><div class="boolean" id="get_stickier"><div>Makes the off slider harder to drag the more you do it</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div><div class="boolean" id="fb_hide_notifications"><div>Gets rid of top-right Facebook notifications</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div><div class="boolean" id="fb_grey"><div>Makes the Facebook top bar grey</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div><div class="boolean" id="fb_auto_unfollow"><div>Auto-unfollows new Facebook friends, pages and groups</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div><div class="boolean" id="fb_show_unfollow"><div>Shows Facebook unfollow dialog</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div><div class="boolean" id="share_data"><div>Shares anonymised data to help make Shift better</div><button class="toggle"><div class="left on">Yes</div><div class="right">No</div></button></div>
+    <div class="container_setting">
+        <div>Show notification after</div>
+        <select class="toggle toggle_notification_settings" id="notification_after_time">
+            <option value="1">1 minute</option>
+            <option value="2">2 minutes</option>
+            <option value="5">5 minutes</option>
+            <option value="10">10 minutes</option>
+        </select>
+    </div>
+    <div class="container_setting1">
+        <div>Repeat notification</div>
+        <select class="toggle toggle_notification_settings" id="notification_repeat_time">
+            <option value="1">1 time</option>
+            <option value="2">2 times</option>
+            <option value="5">5 times</option>
+        </select>
+    </div>
+    <div class="container_setting1">
+        <div>Notification sound volume</div>
+        <select class="toggle toggle_notification_settings" id="notification_sounds_volum">
+            <option value="0">0 %</option>
+            <option value="25">25 %</option>
+            <option value="50">50 %</option>
+            <option value="75">75 %</option>
+            <option value="100">100 %</option>
+        </select>
+    </div>
+    <span class="options-sub-header">Your Shift ID</span><p>Here is your Shift ID:</p><div class="id-banner"><div class="id-text" id="id"></div></div><p class="options-lastpara">You might need it if you participate in a study using Shift.</p></div></body><script src="../../js/jquery.min.js"></script>
+    <script src="../../config.js"></script><script src="../../js/background/storage.js"></script><script src="../../js/helpers.js"></script><script src="../../js/vars/vars.js"></script><script src="../../js/options.js"></script><script src="../../js/notification_setting.js"></script></html>
